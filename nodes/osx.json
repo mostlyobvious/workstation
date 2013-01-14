@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "role[osx]",
+    "role[dev]",
+    "role[ruby]"
+  ]
+}
