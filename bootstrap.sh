@@ -7,8 +7,8 @@ function log {
 log "Started bootstrap, hold on!"
 
 log "Getting up to date Rubygems, Chef and Librarian"
-# sudo gem update --system
-# sudo gem install chef
+sudo gem update --system
+sudo gem install chef
 
 log "Get all the cookbooks"
 librarian-chef install
