@@ -4,6 +4,7 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'homebrew'
 cookbook 'dmg'
+cookbook 'mac_os_x'
 
 cookbook 'vim',  :git => 'git://github.com/pawelpacana/vim-cookbook'
 cookbook 'curl', :git => 'git://github.com/mbl-cli/curl-cookbook'
