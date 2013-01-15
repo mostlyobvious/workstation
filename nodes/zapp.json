@@ -3,6 +3,6 @@
     "role[osx]",
     "role[dev]",
     "role[ruby]",
-    "recipe[vim]"
+    "role[base]"
   ]
 }

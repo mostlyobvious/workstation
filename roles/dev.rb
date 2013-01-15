@@ -1,2 +1,4 @@
 description "General development cookbooks."
-run_list []
+run_list [
+  "recipe[curl]"
+]
