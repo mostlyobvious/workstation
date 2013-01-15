@@ -41,5 +41,4 @@ log "bundling cookbooks"
 librarian-chef install
 
 log "cooking with Chef"
-sudo chef-solo -c config/solo.rb -j nodes/$1.json
-
+sudo ./converge.sh $1
