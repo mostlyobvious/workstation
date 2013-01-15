@@ -1,6 +1,2 @@
-maintainer       "Paweł Pacana"
-maintainer_email "pawel.pacana@gmail.com"
-license          "Apache 2.0"
-description      "Installs google-chrome"
-#long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.0.1"
+description "Installs google-chrome"
+version     "0.0.1"

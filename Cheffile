@@ -12,3 +12,7 @@ cookbook 'rvm',  :git => 'git://github.com/fnichol/chef-rvm.git', :ref => 'v0.9.
 
 cookbook 'firefox',       :path => 'vendor/cookbooks/firefox'
 cookbook 'google-chrome', :path => 'vendor/cookbooks/google-chrome'
+cookbook 'ack',           :path => 'vendor/cookbooks/ack'
+cookbook 'libxml2',       :path => 'vendor/cookbooks/libxml2'
+cookbook 'ctags',         :path => 'vendor/cookbooks/ctags'
+cookbook 'git',           :path => 'vendor/cookbooks/git'
