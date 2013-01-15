@@ -3,3 +3,4 @@
 /cookbooks
 /tmp
 /homebrew_go
+/chef-stacktrace.out

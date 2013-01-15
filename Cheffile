@@ -4,3 +4,5 @@ site 'http://community.opscode.com/api/v1'
 
 cookbook 'homebrew'
 cookbook 'dmg'
+
+cookbook 'vim', :git => 'pawelpacana/vim-cookbook'

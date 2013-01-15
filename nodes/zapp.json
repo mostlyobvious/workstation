@@ -2,6 +2,7 @@
   "run_list": [
     "role[osx]",
     "role[dev]",
-    "role[ruby]"
+    "role[ruby]",
+    "recipe[vim]"
   ]
 }
