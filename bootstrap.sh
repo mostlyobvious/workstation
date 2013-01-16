@@ -37,7 +37,7 @@ if [ $OS = "osx" ]; then
 fi
 
 log "getting Chef and Librarian"
-sudo gem install chef librarian
+sudo gem install --no-rdoc --no-ri chef librarian
 
 log "bundling cookbooks"
 librarian-chef install
