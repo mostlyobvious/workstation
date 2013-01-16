@@ -43,4 +43,4 @@ log "bundling cookbooks"
 librarian-chef install
 
 log "cooking with Chef"
-sudo ./converge.sh $1
+./converge.sh $1
