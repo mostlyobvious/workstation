@@ -4,5 +4,7 @@ run_list [
   "recipe[wget]",
   "recipe[ack]",
   "recipe[git]",
-  "recipe[libxml2]"
+  "recipe[libxml2]",
+  "recipe[netcat]",
+  "recipe[socat]"
 ]
