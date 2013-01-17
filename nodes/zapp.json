@@ -8,5 +8,19 @@
   "rvm": {
     "prefix": "/Users/sensei/.rvm",
     "rubies": ["1.9.3"]
+  },
+  "mac_os_x": {
+    "settings": {
+      "dock": {
+        "domain": "com.apple.dock",
+        "show-process-indicators": true,
+        // "no-glass": true,
+        "autohide": true,
+        "showhidden": true,
+        "launchanim": false,
+        "autohide-delay": 0,
+        "autohide-time-modifer": 0
+      }  
+    }
   }
 }
