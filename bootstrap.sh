@@ -36,8 +36,15 @@ if [ $OS = "osx" ]; then
   fi
 fi
 
-log "getting Chef and Librarian"
-sudo gem install --no-rdoc --no-ri chef librarian
+if [[ -x /usr/bin/chef-solo ]]; then
+  log "getting Chef"
+  sudo gem install --no-rdoc --no-ri chef
+fi
+
+if [[ -x /usr/bin/librarian-chef ]]; then
+  log "getting Librarian"
+  sudo gem install --no-rdoc --no-ri librarian
+fi
 
 log "bundling cookbooks"
 librarian-chef install
