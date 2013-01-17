@@ -18,6 +18,7 @@ if node[:platform] == "mac_os_x"
       source "#{node[:rvm][:prefix]}/scripts/rvm"
       rvm pkg install openssl
     EOS
+    not_if { File.exist? "#{node[:rvm][:prefix]}/scripts/rvm" }
   end
 end
 
