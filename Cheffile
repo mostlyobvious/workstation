@@ -8,7 +8,6 @@ cookbook 'mac_os_x'
 
 cookbook 'vim',  :git => 'git://github.com/pawelpacana/vim-cookbook'
 cookbook 'curl', :git => 'git://github.com/mbl-cli/curl-cookbook'
-cookbook 'rvm',  :git => 'git://github.com/fnichol/chef-rvm.git', :ref => 'v0.9.0'
 
 cookbook 'firefox',       :path => 'vendor/cookbooks/firefox'
 cookbook 'google-chrome', :path => 'vendor/cookbooks/google-chrome'
@@ -16,3 +15,5 @@ cookbook 'ack',           :path => 'vendor/cookbooks/ack'
 cookbook 'libxml2',       :path => 'vendor/cookbooks/libxml2'
 cookbook 'ctags',         :path => 'vendor/cookbooks/ctags'
 cookbook 'git',           :path => 'vendor/cookbooks/git'
+cookbook 'bash',          :path => 'vendor/cookbooks/bash'
+cookbook 'wget',          :path => 'vendor/cookbooks/wget'
