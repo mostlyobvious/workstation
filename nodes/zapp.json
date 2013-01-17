@@ -6,8 +6,7 @@
     "role[base]"
   ],
   "rvm": {
-    "user_installs": [
-      { "user": "sensei", "rubies": ["1.9.3-p362"] }
-    ]
+    "prefix": "/Users/sensei/.rvm",
+    "rubies": ["1.9.3"]
   }
 }
