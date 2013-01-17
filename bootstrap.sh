@@ -36,12 +36,12 @@ if [ $OS = "osx" ]; then
   fi
 fi
 
-if [[ -x /usr/bin/chef-solo ]]; then
+if [[ ! -x /usr/bin/chef-solo ]]; then
   log "getting Chef"
   sudo gem install --no-rdoc --no-ri chef
 fi
 
-if [[ -x /usr/bin/librarian-chef ]]; then
+if [[ ! -x /usr/bin/librarian-chef ]]; then
   log "getting Librarian"
   sudo gem install --no-rdoc --no-ri librarian
 fi
