@@ -14,7 +14,6 @@
       "dock": {
         "domain": "com.apple.dock",
         "show-process-indicators": true,
-        // "no-glass": true,
         "autohide": true,
         "showhidden": true,
         "launchanim": false,
@@ -32,7 +31,8 @@
         "WarnOnEmptyTrash": false,
         "DisableAllAnimations": true,
         "AppleShowAllExtensions": true,
-        "FXEnableExtensionChangeWarning": false
+        "FXEnableExtensionChangeWarning": false,
+        "QLEnableTextSelection": true
       },
       "global": {
         "domain": "NSGlobalDomain",
