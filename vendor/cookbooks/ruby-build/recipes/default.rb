@@ -1,3 +1,3 @@
-case node[:platform] do
+case node[:platform]
   package 'ruby-build'
 end
