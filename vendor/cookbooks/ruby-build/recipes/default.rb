@@ -1,3 +1,4 @@
 case node[:platform]
-  package 'ruby-build'
+when "mac_os_x"
+  package "ruby-build"
 end
