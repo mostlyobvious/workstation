@@ -5,6 +5,9 @@ run_list [
   "recipe[node]",
   "recipe[hub]",
   "recipe[libxml2]",
+  "recipe[libxslt]",
+  "recipe[openssl]",
+  "recipe[readline]",
   "recipe[netcat]",
   "recipe[socat]"
 ]
