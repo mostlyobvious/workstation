@@ -16,5 +16,6 @@ run_list [
   "recipe[dropbox]",
   "recipe[skype]",
   "recipe[virtualbox]",
-  "recipe[vagrant]"
+  "recipe[vagrant]",
+  "recipe[vlc]"
 ]

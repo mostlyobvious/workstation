@@ -5,5 +5,8 @@ run_list [
   "recipe[mac_os_x::settings]",
   "recipe[ssh-copy-id]",
   "recipe[evernote]",
-  "recipe[viscosity]"
+  "recipe[viscosity]",
+  "recipe[iterm2]",
+  "recipe[bettertouchtool]",
+  "recipe[1password]"
 ]
