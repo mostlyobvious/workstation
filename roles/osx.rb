@@ -4,7 +4,7 @@ run_list [
   "recipe[dmg]",
   "recipe[mac_os_x::settings]",
   "recipe[ssh-copy-id]",
-  "recipe[evernote]",
+  # "recipe[evernote]", # EULA problems
   "recipe[viscosity]",
   "recipe[iterm2]",
   "recipe[bettertouchtool]",
