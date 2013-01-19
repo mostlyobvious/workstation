@@ -9,5 +9,6 @@ run_list [
   "recipe[iterm2]",
   "recipe[bettertouchtool]",
   "recipe[1password]",
+  "recipe[paparazzi]",
   "recipe[pow]"
 ]
