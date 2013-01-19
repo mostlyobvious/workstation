@@ -4,7 +4,6 @@ when 'mac_os_x'
     source "http://download.transmissionbt.com/files/Transmission-2.76.dmg"
     action :install
   end
-
 else
   package 'transmission'
 end
