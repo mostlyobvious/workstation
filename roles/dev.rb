@@ -9,6 +9,7 @@ run_list [
   "recipe[libyaml]",
   "recipe[libffi]",
   "recipe[gdbm]",
+  "recipe[qt]",
   "recipe[zeromq]",
   "recipe[openssl]",
   "recipe[readline]",
