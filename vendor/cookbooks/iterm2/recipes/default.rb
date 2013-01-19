@@ -1,6 +1,6 @@
 unless File.exists?("/Applications/iTerm.app")
   remote_file "#{Chef::Config[:file_cache_path]}/iTerm2.zip" do
-    source "https://iterm2.googlecode.com/files/iTerm2_v1_0_0.zip"
+    source "https://iterm2.googlecode.com/files/iTerm2-1_0_0_20121224.zip"
   end
 
   execute "unzip iterm2" do
