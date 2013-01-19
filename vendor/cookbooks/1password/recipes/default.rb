@@ -9,7 +9,6 @@ unless File.exists?("/Applications/1Password.app")
 
   execute "copy 1password to /Applications" do
     command "mv #{Chef::Config[:file_cache_path]}/1Password.app #{Regexp.escape("/Applications/1Password.app")}"
-    group "admin"
   end
 
   ruby_block "test to see if 1Password.app was installed" do

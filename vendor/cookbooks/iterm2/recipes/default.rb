@@ -9,6 +9,5 @@ unless File.exists?("/Applications/iTerm.app")
 
   execute "copy iterm2 to /Applications" do
     command "mv #{Chef::Config[:file_cache_path]}/iTerm.app #{Regexp.escape("/Applications/iTerm.app")}"
-    group "admin"
   end
 end
