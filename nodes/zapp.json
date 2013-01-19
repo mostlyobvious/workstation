@@ -5,6 +5,7 @@
     "role[ruby]",
     "role[base]"
   ],
+  "home": "/Users/sensei",
   "rvm": {
     "prefix": "/Users/sensei/.rvm",
     "rubies": ["1.9.3"]

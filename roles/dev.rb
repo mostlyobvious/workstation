@@ -1,9 +1,8 @@
 description "General development cookbooks."
 run_list [
-  "recipe[curl]",
-  "recipe[wget]",
   "recipe[ack]",
   "recipe[git]",
+  "recipe[hub]",
   "recipe[libxml2]",
   "recipe[netcat]",
   "recipe[socat]"
