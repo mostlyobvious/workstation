@@ -21,5 +21,6 @@ run_list [
   "recipe[transmission]",
   "recipe[ntfs-3g]",
   "recipe[autossh]",
+  "recipe[imagemagick]",
   "recipe[p7zip]"
 ]
