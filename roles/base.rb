@@ -18,5 +18,8 @@ run_list [
   "recipe[virtualbox]",
   "recipe[vagrant]",
   "recipe[vlc]",
-  "recipe[transmission]"
+  "recipe[transmission]",
+  "recipe[ntfs-3g]",
+  "recipe[autossh]",
+  "recipe[p7zip]"
 ]
