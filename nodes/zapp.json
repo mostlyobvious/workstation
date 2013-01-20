@@ -23,7 +23,7 @@
         "expose-animation-duration": 0.1,
         "mouse-over-hilte-stack": true,
         "enable-spring-load-actions-on-all-items": true,
-        "tilesize": 42,
+        "tilesize": 64,
         "dashboard-in-overlay": true,
         "expose-group-by-app": true
       },
