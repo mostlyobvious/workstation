@@ -7,7 +7,6 @@ run_list [
   "recipe[viscosity]",
   "recipe[silverlight]",
   "recipe[iterm2]",
-  "recipe[bettertouchtool]",
   "recipe[1password]",
   "recipe[paparazzi]",
   "recipe[pow]"
