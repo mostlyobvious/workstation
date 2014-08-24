@@ -1,2 +1,0 @@
-description "Installs readline"
-version     "0.0.1"

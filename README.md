@@ -9,13 +9,12 @@ It first downloads [Chef Development Kit](http://downloads.getchef.com/chef-dk/)
 
 The magic commandline that starts bells and whistles on clean machine is:
 ```
-git clone https://github.com/pawelpacana/workstation
-cd workstation
-./bootstrap
+./script/bootstrap
 ```
 
-## How others make it work?
+It expects that configuration for your `hostname` is in `nodes/hostname.json` and you have cookbooks in `cookbooks/` or `Berksfile`.
 
+## How others make it work?
 
 * [Managing My Workstations With Chef](http://jtimberman.housepub.org/blog/2011/04/03/managing-my-workstations-with-chef/)
 * [lunar-station](https://github.com/LunarLogicPolska/lunar-station)

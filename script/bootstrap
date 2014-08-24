@@ -1,0 +1,21 @@
+#!/bin/bash
+
+HOSTNAME=$(hostname)
+CHEFDK_DOWNLOAD_URL='https://opscode-omnibus-packages.s3.amazonaws.com/mac_os_x/10.9/x86_64/chefdk-0.2.0-2.dmg'
+
+set -e
+set -x
+
+if [[ ! -x /usr/bin/chef-solo ]]; then
+  curl $CHEFDK_DOWNLOAD_URL --progress -o /tmp/chef.dmg
+  hdiutil attach /tmp/chef.dmg
+  sudo installer -pkg /Volumes/chefdk/chefdk.pkg -target /
+  hdiutil detach /Volumes/chefdk
+fi
+
+if [[ -d tmp/cookbooks ]]; then 
+  rm -rf tmp/cookbooks/
+fi
+
+berks vendor tmp/cookbooks/
+chef-solo -c config/solo.rb -j nodes/${HOSTNAME}.json
