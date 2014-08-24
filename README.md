@@ -1,21 +1,23 @@
-# Workstation
+Workstation
+===========
 
-Workstation is chef-solo setup for machines I work on. Inspired by [Lunar Station][lunar] and [Joshua Timberman][jtimberman] setup.
+My personal OSX workstation setup script. Feel free to take it and customize it for yourself.
 
-[lunar]: https://github.com/LunarLogicPolska/lunar-station
-[jtimberman]: http://jtimberman.housepub.org/blog/2011/04/03/managing-my-workstations-with-chef/
+## How does it work?
 
-## Usage
+It first downloads [Chef Development Kit](http://downloads.getchef.com/chef-dk/) to run `chef-solo` on predefined node configuration with curated set of Chef cookbooks.
 
-Make yourself a node in `nodes/NAME.json` first, then:
+The magic commandline that starts bells and whistles on clean machine is:
+```
+git clone https://github.com/pawelpacana/workstation
+cd workstation
+./bootstrap
+```
 
-    ./bootstrap.sh NAME
+## How others make it work?
 
 
-## OSX prerequirements
-
-[XCode][apple]. [Command Line Tools][apple] are simply not sufficient for some packages or just troublesome enough to invest time troubleshootong rather than additional gigabytes of storage.
-
-
-[apple]: https://developer.apple.com/downloads/index.action
-
+* [Managing My Workstations With Chef](http://jtimberman.housepub.org/blog/2011/04/03/managing-my-workstations-with-chef/)
+* [lunar-station](https://github.com/LunarLogicPolska/lunar-station)
+* [pivotal-sprout](https://github.com/pivotal-sprout/)
+* [boxen](https://boxen.github.com/)
