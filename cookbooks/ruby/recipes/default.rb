@@ -10,11 +10,20 @@ rubies = %w(
   jruby
 )
 
-file "/Users/#{owner}/.rvmrc" do
+homedir = File.join('/Users', owner)
+
+file File.join(homedir, '.rvmrc') do
   content %Q/\nrvm_without_gems="rubygems-bundler executable-hooks"/
   owner owner
   group 'staff'
 end
+
+install_rvm(
+  user:          owner,
+  rvm_prefix:    homedir,
+  script_flags:  '-s stable',
+  installer_url: 'https://get.rvm.io'
+)
 
 rubies.each do |ruby_version|
   rvm_ruby ruby_version do
