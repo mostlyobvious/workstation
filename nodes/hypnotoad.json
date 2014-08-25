@@ -1,4 +1,47 @@
 {
   "run_list": [
-  ]
+    "homebrew::install_formulas",
+    "homebrew::install_casks"
+  ],
+  "homebrew": {
+    "formulas": [
+    ],
+    "casks": [
+      "apache-directory-studio",
+      "appcleaner",
+      "chefdk",
+      "dropbox",
+      "firefox",
+      "flowdock",
+      "font-bebas-neue",
+      "font-fira-sans",
+      "font-lato",
+      "font-league-gothic",
+      "font-source-code-pro",
+      "google-chrome",
+      "imageoptim",
+      "iterm2",
+      "java",
+      "keyboardcleantool",
+      "macdown",
+      "macvim",
+      "miro-video-converter",
+      "mumble",
+      "paparazzi",
+      "rubymine",
+      "screenflow",
+      "send-to-kindle",
+      "silverlight",
+      "skype",
+      "slack",
+      "spotify",
+      "steam",
+      "transmission",
+      "vagrant",
+      "virtualbox",
+      "viscosity",
+      "vlc",
+      "xquartz"
+    ]
+  }
 }
