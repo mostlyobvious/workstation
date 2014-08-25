@@ -1,4 +1,3 @@
-include_recipe 'homebrew'
 ::Chef::Recipe.send(:include, Homebrew::Mixin)
 owner = homebrew_owner
 

@@ -1,4 +1,8 @@
+::Chef::Recipe.send(:include, Homebrew::Mixin)
+owner = homebrew_owner
+
 dmg_package "JavaForOSX" do
+  owner     owner
   dmg_name  "JavaForOSX2014-001"
   volumes_dir "Java for OS X 2014-001"
   type      "pkg"

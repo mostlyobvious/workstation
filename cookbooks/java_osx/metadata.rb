@@ -7,3 +7,4 @@ long_description 'Installs/Configures java_osx'
 version          '0.1.0'
 
 depends 'dmg'
+depends 'homebrew'
