@@ -17,5 +17,15 @@ if [[ -d tmp/cookbooks ]]; then
   rm -rf tmp/cookbooks/
 fi
 
+if [[ ! -d /usr/local ]]; then
+  sudo mkdir /usr/local
+  sudo chown -R `whoami`:staff /usr/local
+fi
+
+if [[ ! -d /opt/homebrew-cask/ ]]; then
+  sudo mkdir /opt/homebrew-cask
+  sudo chown -R `whoami`:staff /opt/homebrew-cask
+fi
+
 berks vendor tmp/cookbooks/
 chef-solo -c config/solo.rb -j nodes/${HOSTNAME}.json
