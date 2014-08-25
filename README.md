@@ -13,6 +13,7 @@ The magic commandline that starts bells and whistles on clean machine is:
 ```
 
 It expects that configuration for your `hostname` is in `nodes/hostname.json` and you have cookbooks in `cookbooks/` or `Berksfile`.
+To set hostname to desired one you may use `sudo hostname -s my_desired_host_name`.
 
 ## How others make it work?
 
