@@ -17,16 +17,6 @@ if [[ -d tmp/cookbooks ]]; then
   rm -rf tmp/cookbooks/
 fi
 
-if [[ ! -d /usr/local ]]; then
-  sudo mkdir /usr/local
-  sudo chown -R `whoami`:staff /usr/local
-fi
-
-if [[ ! -d /opt/homebrew-cask/ ]]; then
-  sudo mkdir /opt/homebrew-cask
-  sudo chown -R `whoami`:staff /opt/homebrew-cask
-fi
-
 if ! pkgutil --pkg-info=com.apple.pkg.CLTools_Executables > /dev/null; then
   touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
   PROD=$(softwareupdate -l | grep -B 1 "Developer" | head -n 1 | awk -F"*" '{print $2}')
