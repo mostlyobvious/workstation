@@ -28,7 +28,7 @@ if [[ ! -d /opt/homebrew-cask/ ]]; then
 fi
 
 if ! pkgutil --pkg-info=com.apple.pkg.CLTools_Executables > /dev/null; then
-  xcode-select --install
+  softwareupdate -v -i -r
 fi
 
 berks vendor tmp/cookbooks/
