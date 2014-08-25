@@ -1,6 +1,2 @@
-/Gemfile.lock
-/Cheffile.lock
-/cookbooks
+/Berksfile.lock
 /tmp
-/homebrew_go
-/chef-stacktrace.out
