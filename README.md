@@ -15,6 +15,8 @@ The magic commandline that starts bells and whistles on clean machine is:
 It expects that configuration for your `hostname` is in `nodes/hostname.json` and you have cookbooks in `cookbooks/` or `Berksfile`.
 To set hostname to desired one you may use `sudo scutil --set HostName my_host_name`.
 
+I've made it work with OSX Mavericks and that coupling with particular release satisfies my needs.
+
 ## How others make it work?
 
 * [Managing My Workstations With Chef](http://jtimberman.housepub.org/blog/2011/04/03/managing-my-workstations-with-chef/)
