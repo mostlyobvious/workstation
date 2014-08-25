@@ -34,4 +34,4 @@ if ! pkgutil --pkg-info=com.apple.pkg.CLTools_Executables > /dev/null; then
 fi
 
 berks vendor tmp/cookbooks/
-chef-solo -c config/solo.rb -j nodes/${HOSTNAME}.json
+sudo chef-solo -c config/solo.rb -j nodes/${HOSTNAME}.json
