@@ -10,6 +10,7 @@
     "auto-update": false,
     "taps": [
       "homebrew/dupes",
+      "homebrew/binary",
       "caskroom/fonts",
       "nviennot/tmate"
     ],
