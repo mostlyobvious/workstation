@@ -1,0 +1,7 @@
+name             'littlechef'
+maintainer       ''
+maintainer_email ''
+license          ''
+description      'Installs/Configures littlechef'
+long_description 'Installs/Configures littlechef'
+version          '0.1.0'
