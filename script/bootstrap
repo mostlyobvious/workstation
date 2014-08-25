@@ -27,5 +27,9 @@ if [[ ! -d /opt/homebrew-cask/ ]]; then
   sudo chown -R `whoami`:staff /opt/homebrew-cask
 fi
 
+if ! pkgutil --pkg-info=com.apple.pkg.CLTools_Executables > /dev/null; then
+  xcode-select --install
+fi
+
 berks vendor tmp/cookbooks/
 chef-solo -c config/solo.rb -j nodes/${HOSTNAME}.json
