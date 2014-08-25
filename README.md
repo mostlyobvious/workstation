@@ -23,3 +23,4 @@ I've made it work with OSX Mavericks and that coupling with particular release s
 * [lunar-station](https://github.com/LunarLogicPolska/lunar-station)
 * [pivotal-sprout](https://github.com/pivotal-sprout/)
 * [boxen](https://boxen.github.com/)
+* [kitchenplan](https://github.com/kitchenplan/kitchenplan)
