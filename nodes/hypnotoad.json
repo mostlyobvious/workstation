@@ -61,7 +61,6 @@
       "watch",
       "wget",
       "wrk",
-      "xctool",
       "zeromq"
     ],
     "casks": [
