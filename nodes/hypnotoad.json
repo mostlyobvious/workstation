@@ -1,5 +1,6 @@
 {
   "run_list": [
+    "java_osx",
     "homebrew_ext::install_requirements",
     "homebrew_ext::install_taps",
     "homebrew::install_formulas",
@@ -76,7 +77,6 @@
       "google-chrome",
       "imageoptim",
       "iterm2",
-      "java",
       "keyboardcleantool",
       "macdown",
       "macvim",
@@ -96,7 +96,8 @@
       "virtualbox",
       "viscosity",
       "vlc",
-      "xquartz"
+      "xquartz",
+      "java"
     ]
   }
 }
