@@ -4,7 +4,8 @@
     "homebrew_ext::install_requirements",
     "homebrew_ext::install_taps",
     "homebrew::install_formulas",
-    "homebrew::install_casks"
+    "homebrew::install_casks",
+    "ruby"
   ],
   "homebrew": {
     "auto-update": false,
